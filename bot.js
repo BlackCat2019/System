@@ -1248,7 +1248,7 @@ client.on('ready', function(){
             j = -1;
         }
         i = i+j;
-        client.user.setGame(setGame[i],``);
+        client.user.setGame(prefix + 'GhostKing || !help');
     }, ms);100000
 
 });

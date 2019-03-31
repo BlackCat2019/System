@@ -9,7 +9,7 @@ client.on('ready', () => {
 
 client.on('ready', function() {
 	console.log(`i am ready ${client.user.username}`);
-    client.user.setGame(prefix + 'M.G.R || .help');
+    client.user.setGame(prefix + 'Ghost_Sytème || !help');
 });
 
 

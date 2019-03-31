@@ -7,6 +7,13 @@ client.on('ready', () => {
 
 //الاوامر//
 
+client.on('ready', function() {
+	console.log(`i am ready ${client.user.username}`);
+    client.user.setGame(prefix + 'M.G.R || .help');
+});
+
+
+
 
 client.on("message", message => {
  if (message.content === "!help") {
